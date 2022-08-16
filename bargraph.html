@@ -5,96 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>Bar Chart Document</title>
+    <link rel="stylesheet" href="bargraphstyle.css">
 </head>
-<style>
-     
-    body {
-        height:0%; 
-    } 
-
-    body{
-        margin: 75px;
-        padding: 0;
-        height: 75vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: "Roboto", sans-serif; 
-        background: #333;
-      }
-      
-
-    #Bar_graph{
-        background-color:whitesmoke;
-        top:10%;
-        left: 40%;
-
-    }
-
-    #Bar_graph article{
-        display:inline-block;
-    }
-
-    div {
-        width: 40px;
-        height: 300px;
-        margin:20px;
-        background-color: rgb(202,198,192);
-        text-align: center;
-    }
-
-   
-    #bar1 {
-        width:100%;
-        height:70%;
-        background-color: white;
-        animation-name: barplot1;
-        animation-duration:2s;
-        animation-iteration-count:2s;
-    }
-
-    @keyframes barplot1{
-        0%{height:100%; background-color: white;}
-        100%{height:70%; background-color: white;}
-    }
-
-    #bar2 {
-       width:100%;
-       height:60%;
-       background-color: white;
-       animation-name: barplot2;
-       animation-duration:2s;
-       animation-iteration-count:2s;
-       
-    }
-
-     @keyframes barplot2{
-        0%{height:100%; background-color:white;}
-        100%{height:70%; background-color:white;}
-    }
-
-
-    #bar3 {
-        width:100%;
-        height:20%;
-        background-color: white;
-        animation-name: barplot3;
-        animation-duration:2s;
-        animation-iteration-count:2s;  
-    }
-
-    @keyframes barplot3{
-        0%{height:100%; background-color:white;}
-        100%{height:20%; background-color:white;}
-    }
-
-    h1 {text-align: center;}
-    p {text-align: center;}
-    div {text-align: center;}
-
-</style>
-</head>
-    <body>
+    <body>  
         <section id="Bar_graph">
         <article>
             <div><article id="bar1"></article></div>
